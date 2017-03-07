@@ -1,14 +1,9 @@
-﻿La génération a démarré 01/03/2017 18:06:32.
-     1>Projet "C:\Users\Administrateur\Desktop\TP\TPC++\TPC++\TPC++.vcxproj" sur le nœud 2 (Build cible(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cexception.cpp TPC++.cpp
-         TPC++.cpp
-         Cexception.cpp
-     1>c:\users\administrateur\desktop\tp\tpc++\tpc++\cexception.cpp(10): error C2511: 'Cexception::Cexception(unsigned int)' : impossible de trouver la fonction membre surchargée dans 'Cexception'
-                 c:\users\administrateur\desktop\tp\tpc++\tpc++\cexception.h(10) : voir la déclaration de 'Cexception'
-         Génération de code en cours...
-     1>Génération du projet "C:\Users\Administrateur\Desktop\TP\TPC++\TPC++\TPC++.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+﻿Build started 07/03/2017 15:04:52.
+     1>Project "C:\Users\thiba\git_projects\Projet_cpp\project_cpp\TPC++\TPC++\TPC++.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="14.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install v140 to build using the v140 build tools.
+     1>Done Building Project "C:\Users\thiba\git_projects\Projet_cpp\project_cpp\TPC++\TPC++\TPC++.vcxproj" (Build target(s)) -- FAILED.
 
-ÉCHEC de la build.
+Build FAILED.
 
-Temps écoulé 00:00:01.28
+Time Elapsed 00:00:00.01
