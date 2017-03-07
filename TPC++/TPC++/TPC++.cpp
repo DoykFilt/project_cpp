@@ -23,6 +23,7 @@ void main()
 			{
 				Cexception EXCObjet;
 				EXCObjet.EXCModifier_Valeur(ERREUR_DENOMINATEUR_NUL);
+				EXCObjet.EXCModifier_Message("Division par zero impossible !");
 				throw EXCObjet;
 			}
 			cout<<"resultat division : "<<fNumerateur/fDenominateur<<endl;
@@ -30,7 +31,7 @@ void main()
 		}
 		catch(Cexception EXCObjet)
 		{
-			cout<<"Erreur "<<EXCObjet.EXCLire_Valeur()<<endl;
+			cout<<"Erreur "<<EXCObjet.EXCLire_Valeur()<< " " << EXCObjet.EXCLire_Message() << endl;
 		}
 	}
 }
