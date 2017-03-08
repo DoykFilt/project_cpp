@@ -1,5 +1,5 @@
 #ifndef CEXCEPTION
-#define CEXCEPTION 1
+#define CEXCEPTION
 
 #include <string>
 using namespace std;
