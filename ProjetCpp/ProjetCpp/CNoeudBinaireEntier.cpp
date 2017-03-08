@@ -71,10 +71,6 @@ void CNoeudBinaireEntier::NBEModifierFDroit(CNoeudBinaireEntier * NBEarbre)
 {
 
 }
-void CNoeudBinaireEntier::NBEViderArbre(CNoeudBinaireEntier & NBEarbre)
-{
-
-}
 
 //Opérateurs
 void CNoeudBinaireEntier::operator+(const CNoeudBinaireEntier & arbre)
