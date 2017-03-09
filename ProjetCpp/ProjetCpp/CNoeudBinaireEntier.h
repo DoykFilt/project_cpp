@@ -24,6 +24,9 @@ public :
 	void NBEModifierFGauche(CNoeudBinaireEntier * NBEarbre);
 	CNoeudBinaireEntier * NBELireFilsDroit();
 	void NBEModifierFDroit(CNoeudBinaireEntier * NBEarbre);
+
+	//Operateurs
+	CNoeudBinaireEntier & operator=(CNoeudBinaireEntier const & noeud);
 };
 
 #endif
