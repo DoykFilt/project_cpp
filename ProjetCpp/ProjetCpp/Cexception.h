@@ -24,9 +24,9 @@ public :
 	~Cexception();
 
 	//Methodes
-	unsigned int EXCLire_Valeur();
+	unsigned int EXCLire_Valeur() const;
 	void EXCModifier_Valeur(unsigned int uiValeur);
-	string EXCLire_Message();
+	string EXCLire_Message() const;
 	void EXCModifier_Message(string sMessage);
 
 };

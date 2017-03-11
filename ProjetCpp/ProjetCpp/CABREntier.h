@@ -19,7 +19,7 @@ public :
 
 	void ABRViderArbre();
 
-	bool ABRRechercherElement(int iElement);
+	bool ABRRechercherElement(int iElement) const;
 };
 
 #endif

@@ -46,7 +46,7 @@ void CABREntier::ABRViderArbre()
 
 }
 
-bool CABREntier::ABRRechercherElement(int iElement)
+bool CABREntier::ABRRechercherElement(int iElement) const
 {
 	int iNoeudElement = NBELireElement();
 

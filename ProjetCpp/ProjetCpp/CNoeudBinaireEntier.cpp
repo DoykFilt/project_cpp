@@ -94,7 +94,7 @@ Getteur de la valeur
 	Sortie : Valeur contenu dans le noeud
 	Entraine : Néant
 ******************************************************************************/
-int CNoeudBinaireEntier::NBELireElement()
+inline int CNoeudBinaireEntier::NBELireElement() const
 {
 	return iNBEElement;
 }
@@ -107,7 +107,7 @@ Setteur de la valeur
 	Sortie : Rien
 	Entraine : Modification de la valeur.
 ******************************************************************************/
-void CNoeudBinaireEntier::NBEModifierElement(int iValeur)
+inline void CNoeudBinaireEntier::NBEModifierElement(int iValeur)
 {
 	iNBEElement = iValeur;
 }
@@ -120,7 +120,7 @@ Getteur du fils gauche
 	Sortie : pointeur CNoeudBianireEntier sur le fils gauche
 	Entraine : Néant
 ******************************************************************************/
-CNoeudBinaireEntier * CNoeudBinaireEntier::NBELireFilsGauche()
+inline CNoeudBinaireEntier * CNoeudBinaireEntier::NBELireFilsGauche() const
 {
 	return pNBEFilsGauche;
 }
@@ -133,7 +133,7 @@ Setteur du fils gauche
 	Sortie : Rien
 	Entraine : Néant
 ******************************************************************************/
-void CNoeudBinaireEntier::NBEModifierFGauche(CNoeudBinaireEntier * NBEarbre)
+inline void CNoeudBinaireEntier::NBEModifierFGauche(CNoeudBinaireEntier * NBEarbre)
 {
 	pNBEFilsGauche = NBEarbre;
 }
@@ -146,7 +146,7 @@ Getteur du fils Droit
 	Sortie : pointeur CNoeudBinaireEntier sur le fils droit
 	Entraine : Néant
 ******************************************************************************/
-CNoeudBinaireEntier * CNoeudBinaireEntier::NBELireFilsDroit()
+inline CNoeudBinaireEntier * CNoeudBinaireEntier::NBELireFilsDroit() const
 {
 	return pNBEFilsDroit;
 }
@@ -159,7 +159,7 @@ Setteur du fils Droit
 	Sortie : Rien
 	Entraine : Néant
 ******************************************************************************/
-void CNoeudBinaireEntier::NBEModifierFDroit(CNoeudBinaireEntier * NBEarbre)
+inline void CNoeudBinaireEntier::NBEModifierFDroit(CNoeudBinaireEntier * NBEarbre)
 {
 	pNBEFilsDroit = NBEarbre;
 }
@@ -172,7 +172,7 @@ Surcharge de l'operateur =
 	Sortie : Référence sur un CNoeurBinaireEntier
 	Entraine : Un nouvel objet CNoeudBinaireEntier a été créé
 ******************************************************************************/
-CNoeudBinaireEntier & CNoeudBinaireEntier::operator=(CNoeudBinaireEntier const & noeud)
+inline CNoeudBinaireEntier & CNoeudBinaireEntier::operator=(CNoeudBinaireEntier const & noeud)
 {
 	return *(new CNoeudBinaireEntier(noeud));
 }

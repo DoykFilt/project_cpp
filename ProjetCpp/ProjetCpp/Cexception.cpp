@@ -61,7 +61,7 @@ Necessité : Néant
 Sortie : Valeur
 Entraine : Retourne la valeur.
 ******************************************************************************/
-unsigned int Cexception::EXCLire_Valeur()
+inline unsigned int Cexception::EXCLire_Valeur() const
 {
 	return uiEXCValeur;
 }
@@ -74,7 +74,7 @@ Necessité : Valeur existante.
 Sortie : Néant
 Entraine : Modification de la valeur.
 ******************************************************************************/
-void Cexception::EXCModifier_Valeur(unsigned int uiValeur)
+inline void Cexception::EXCModifier_Valeur(unsigned int uiValeur)
 {
 	uiEXCValeur = uiValeur;
 }
@@ -87,7 +87,7 @@ Necessité : Néant
 Sortie : Valeur
 Entraine : Retourne la valeur.
 ******************************************************************************/
-string Cexception::EXCLire_Message()
+inline string Cexception::EXCLire_Message() const
 {
 	return sEXCMessage;
 }
@@ -100,7 +100,7 @@ Necessité : Néant
 Sortie : Rien
 Entraine : Modification du message.
 ******************************************************************************/
-void Cexception::EXCModifier_Message(string sMessage)
+inline void Cexception::EXCModifier_Message(string sMessage)
 {
 	sEXCMessage = sMessage;
 }

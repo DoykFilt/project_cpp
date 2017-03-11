@@ -18,11 +18,11 @@ public :
 	~CNoeudBinaireEntier();
 
 	//Méthodes
-	int NBELireElement();
+	int NBELireElement() const;
 	void NBEModifierElement(int iValeur);
-	CNoeudBinaireEntier * NBELireFilsGauche();
+	CNoeudBinaireEntier * NBELireFilsGauche() const;
 	void NBEModifierFGauche(CNoeudBinaireEntier * NBEarbre);
-	CNoeudBinaireEntier * NBELireFilsDroit();
+	CNoeudBinaireEntier * NBELireFilsDroit() const;
 	void NBEModifierFDroit(CNoeudBinaireEntier * NBEarbre);
 
 	//Operateurs
